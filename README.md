@@ -7,7 +7,7 @@
 This is an example of a react-motion floating action button fan I wrote for an internal project.
 The code is relatively easy to look at, and the `<FabFan />` component can just take more/less buttons as props.
 
-![preview](https://github.com/hanford/react-fab-fan/blob/master/example.gif+)
+![preview](https://github.com/hanford/react-fab-fan/blob/master/example.gif)
 
 TODO:
 
