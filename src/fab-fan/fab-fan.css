@@ -1,0 +1,52 @@
+.container {
+  right: 20px;
+  position: fixed;
+  bottom: 20px;
+  z-index: 15;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.fab {
+  background-color: #01c08a;
+  border-radius: 50%;
+  padding: 10px;
+  height: 60px;
+  width: 60px;
+  font-size: 30px;
+  border: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  transition: background-color 0.3s linear;
+}
+
+.fab div {
+  bottom: 3px;
+  position: relative;
+}
+
+.fab.active {
+  background-color: #b63353;
+}
+
+.fabItem {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  letter-space: 0.03em;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
