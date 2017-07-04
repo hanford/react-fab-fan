@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import GithubBadge from  'react-github-badge'
 import './App.css'
 
 import FabFan from './fab-fan/'
@@ -31,6 +32,11 @@ class App extends Component {
 
     return (
       <div className="App">
+
+      <GithubBadge
+        url='https://github.com/hanford/react-fab-fan'
+        title='Star on Github'
+      />
 
         <h2>React Fab Fan</h2>
 
